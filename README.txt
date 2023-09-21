@@ -1,6 +1,6 @@
 ===>===>Assignment 1
 ->Created a nestedlist
-->Create a function with an argument
+->Create a function with a parameter
 ->Used spread operator
 ->Using while loop iterated the nestedlist;
 ->Passed data to stack const
