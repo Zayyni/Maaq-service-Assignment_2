@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <script>
+        const number =  parseInt(prompt("Enter a positive integer: "));
+        let sum=0;
+        for(let i=0;i<=number;i++){
+         sum +=i;
+        }
+        const totalSum=sum*sum;
+        document.write("Square of Sum of Natural Numbers"," ",totalSum,"<br>");
+
+        const number2 = parseInt(prompt("Enter a positive Integer: "));
+        let sum2=0;
+        for(let j=0;j<=number2;j++){
+            sum2 +=j**2;
+        }
+        document.write("Sum of Square of Natural Numbers"," ",sum2,"<br>");
+        document.write("Difference between the sum of the squares is", " ",totalSum-sum2);
+
+
+    </script>
+
+</head>
+<body>
+    <h1>Assignment 2 in js</h1>
+</body>
+</html>
